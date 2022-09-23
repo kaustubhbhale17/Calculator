@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css"/>
+</head>
+<script src="./calculator.js">
+</script> 
+<body>
+    <h2 id="heading">Simple Calculator</h2>
+    <table>
+        <tr>
+            <td>
+                <textarea id="res" value="" name="res" rows="3" cols="33" style="font-size: 10pt">
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="1" name="1" value="1" class="button" onclick="display('1')"/>
+                <input type="button" id="2" name="2" value="2" class="button" onclick="display('2')"/>
+                <input type="button" id="3" name="3" value="3" class="button" onclick="display('3')"/>
+                <input type="button" id="4" name="4" value="4" class="button" onclick="display('4')"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="5" name="5" value="5" class="button" onclick="display('5')"/>
+                <input type="button" id="6" name="6" value="6" class="button" onclick="display('6')"/>
+                <input type="button" id="7" name="7" value="7" class="button" onclick="display('7')"/>
+                <input type="button" id="8" name="8" value="8" class="button" onclick="display('8')"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="9" name="5" value="9" class="button" onclick="display('9')"/>
+                <input type="button" id="0" name="0" value="0" class="button" onclick="display('0')"/>
+                <input type="button" id="dot" name="dot" value="." class="button" onclick="display('.')"/>
+                <input type="button" id="equal" name="equal" value="=" class="button" onclick="solve()"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="add" name="add" value="+" class="button" onclick="display('+')"/>
+                <input type="button" id="sub" name="sub" value="-" class="button" onclick="display('-')"/>
+                <input type="button" id="mul" name="mul" value="*" class="button" onclick="display('*')"/>
+                <input type="button" id="div" name="div" value="/" class="button" onclick="display('/')"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="clear" class="clrButton" name="clrButton" value="CLEAR" onclick="clearConsole()"/>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

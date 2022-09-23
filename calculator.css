@@ -1,0 +1,43 @@
+#heading{
+    text-align: center;
+    font-family: Verdana;
+    font-style: bold;
+    color: brown;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+td{
+    background-color: aliceblue;
+    width: 250px;
+    height: 100px;
+}
+
+.button{
+    background-color: grey; 
+    border: 2px solid black;
+    color: black;
+    padding: 15px 20px;
+    margin-left: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.clrButton{
+    background-color: red;
+    border: 2px solid;
+    color: black;
+    padding: 15px 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 250px;
+
+}
+
+
